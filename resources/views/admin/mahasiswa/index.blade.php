@@ -42,7 +42,7 @@
                 <p class="text-gray-400">Kelola informasi mahasiswa dalam sistem</p>
             </div>
             <a href="{{ route('admin.mahasiswa.create') }}" 
-               class="action-btn bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 px-6 py-3 rounded-xl text-black font-semibold shadow-lg flex items-center gap-3 group">
+               class="action-btn bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 px-6 py-3 rounded-xl text-black font-semibold shadow-lg flex items-center gap-3 group">
                 <svg class="w-5 h-5 group-hover:rotate-90 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
@@ -69,7 +69,7 @@
         
         <div class="glass-card rounded-xl p-6">
             <div class="flex items-center gap-4">
-                <div class="w-12 h-12 bg-gradient-to-r from-emerald-500 to-emerald-600 rounded-xl flex items-center justify-center">
+                <div class="w-12 h-12 bg-gradient-to-r from-pink-500 to-pink-600 rounded-xl flex items-center justify-center">
                     <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
@@ -119,7 +119,7 @@
                     @forelse ($mahasiswa as $mhs)
                     <tr class="table-row">
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
-                            <div class="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center text-black font-semibold text-xs">
+                            <div class="w-8 h-8 bg-pink-500 rounded-full flex items-center justify-center text-black font-semibold text-xs">
                                 {{ $loop->iteration }}
                             </div>
                         </td>
@@ -141,7 +141,7 @@
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">{{ $mhs->angkatan }}</td>
                             <td class="px-6 py-4 whitespace-nowrap">
-                                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-pink-500/20 text-pink-300 border border-pink-500/30">
                                     {{ $mhs->prodi->nama ?? '-' }} <br> {{ $mhs->prodi->fakultas->nama ?? '-' }}
                                 </span>
                             </td>

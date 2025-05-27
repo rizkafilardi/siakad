@@ -64,7 +64,7 @@
             </div>
             <div>
                 <h2 class="text-2xl font-bold text-black">Edit Kelas</h2>
-                <p class="text-gray-400">Perbarui informasi kelas: <span class="text-emerald-400 font-medium">{{ $kelas->kode_kelas }}</span></p>
+                <p class="text-gray-400">Perbarui informasi kelas: <span class="text-pink-400 font-medium">{{ $kelas->kode_kelas }}</span></p>
             </div>
         </div>
     </div>
@@ -159,15 +159,15 @@
 
             <!-- Current Info Section -->
             @if($kelas->mata_kuliah)
-            <div class="glass-card rounded-xl p-6 bg-emerald-500/10 border border-emerald-500/20">
+            <div class="glass-card rounded-xl p-6 bg-pink-500/10 border border-pink-500/20">
                 <div class="flex items-start gap-3">
-                    <div class="w-6 h-6 text-emerald-400 flex-shrink-0 mt-0.5">
+                    <div class="w-6 h-6 text-pink-400 flex-shrink-0 mt-0.5">
                         <svg fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                         </svg>
                     </div>
                     <div>
-                        <h4 class="text-emerald-300 font-medium mb-1">Informasi Mata Kuliah Saat Ini</h4>
+                        <h4 class="text-pink-300 font-medium mb-1">Informasi Mata Kuliah Saat Ini</h4>
                         <div class="text-gray-300 text-sm space-y-1">
                             <p><span class="font-medium">Mata Kuliah:</span> {{ $kelas->mata_kuliah->nama }}</p>
                             <p><span class="font-medium">Kode:</span> {{ $kelas->mata_kuliah->kode }}</p>

@@ -42,7 +42,7 @@
                 <p class="text-gray-400">Kelola informasi mata kuliah dalam sistem</p>
             </div>
             <a href="{{ route('admin.matakuliah.create') }}" 
-               class="action-btn bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 px-6 py-3 rounded-xl text-black font-semibold shadow-lg flex items-center gap-3 group">
+               class="action-btn bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 px-6 py-3 rounded-xl text-black font-semibold shadow-lg flex items-center gap-3 group">
                 <svg class="w-5 h-5 group-hover:rotate-90 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                 </svg>
@@ -144,7 +144,7 @@
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap">
                             <div class="flex items-center gap-3">
-                                <div class="w-10 h-10 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center">
+                                <div class="w-10 h-10 bg-gradient-to-r from-green-500 to-pink-500 rounded-full flex items-center justify-center">
                                     <span class="text-white font-semibold text-sm">{{ substr($mk->nama, 0, 1) }}</span>
                                 </div>
                                 <div>

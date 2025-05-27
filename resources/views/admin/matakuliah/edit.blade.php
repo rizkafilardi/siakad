@@ -64,7 +64,7 @@
             </div>
             <div>
                 <h2 class="text-2xl font-bold text-black">Edit Mata Kuliah</h2>
-                <p class="text-gray-400">Perbarui informasi mata kuliah: <span class="text-emerald-400 font-medium">{{ $matakuliah->nama }}</span></p>
+                <p class="text-gray-400">Perbarui informasi mata kuliah: <span class="text-pink-400 font-medium">{{ $matakuliah->nama }}</span></p>
             </div>
         </div>
     </div>
