@@ -148,7 +148,7 @@
                                     <span class="text-white font-semibold text-sm">{{ substr($mk->nama, 0, 1) }}</span>
                                 </div>
                                 <div>
-                                    <div class="text-sm font-medium text-white">{{ $mk->nama }}</div>
+                                    <div class="text-sm font-medium text-black">{{ $mk->nama }}</div>
                                     <div class="text-sm text-gray-400">Mata Kuliah</div>
                                 </div>
                             </div>

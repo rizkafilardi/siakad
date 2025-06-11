@@ -79,22 +79,6 @@
                         <div class="absolute -right-2 -bottom-4 text-8xl text-pink-400/30 font-serif leading-none">"</div>
                     </div>
                 </div>
-
-                <!-- Mascot Image -->
-                <div class="flex-shrink-0 relative">
-                    <div class="relative">
-                        <!-- Decorative elements -->
-                        <div class="absolute -top-6 -right-6 w-12 h-12 bg-gradient-to-br from-pink-400 to-pink-500 rounded-full opacity-70 animate-pulse"></div>
-                        <div class="absolute -bottom-6 -left-6 w-8 h-8 bg-gradient-to-br from-rose-400 to-pink-500 rounded-full opacity-50 animate-pulse delay-1000"></div>
-                        <div class="absolute top-1/2 -left-8 w-6 h-6 bg-gradient-to-br from-pink-300 to-pink-400 rounded-full opacity-60 animate-bounce delay-500"></div>
-                        
-                        <!-- Image container -->
-                        <div class="relative p-6">
-                            <div class="absolute inset-0 bg-gradient-to-br from-pink-400/20 to-rose-500/20 rounded-full opacity-50 blur-2xl animate-pulse"></div>
-                            <img src="{{ asset('storage/mascot.png') }}" alt="Karakter Mahasiswa" class="relative w-72 md:w-96 drop-shadow-2xl transform hover:scale-105 transition-transform duration-300">
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

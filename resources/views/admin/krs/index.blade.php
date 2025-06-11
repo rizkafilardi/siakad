@@ -6,12 +6,6 @@
 @section('content')
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
-    
-    .dashboard-container {
-        font-family: 'Nunito', sans-serif;
-        background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 50%, #fbcfe8 100%);
-        min-height: 100vh;
-    }
 
     .glass-card {
         background: rgba(255, 255, 255, 0.9);
